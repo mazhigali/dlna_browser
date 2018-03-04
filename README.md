@@ -14,11 +14,15 @@ mpv "paste url from clipboard"
 ```
 
 
-### Prerequisites
+### Gow to run
 
 You can run compiled version
 
 ```
 ./dlna_browser
 ```
+Or use Go
 
+```
+go run main.go
+```
