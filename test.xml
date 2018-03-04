@@ -1,0 +1,108 @@
+<DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/">
+  <container childCount="2" id="V_F^FOL*R1$F27" parentID="V_F^FOL*R1" restricted="1" searchable="0">
+    <upnp:icon>http://192.168.88.250:8895/resource/629/COVER_IMAGE</upnp:icon>
+    <dc:title>Golos.Deti.5.sezon.HDTVRip.GeneralFilm</dc:title>
+    <upnp:class>object.container.storageFolder</upnp:class>
+    <upnp:albumArtURI dlna:profileID="JPEG_TN">http://192.168.88.250:8895/resource/629/COVER_IMAGE</upnp:albumArtURI>
+    <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_OP=00;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00D00000000000000000000000000000" resolution="160x88">http://192.168.88.250:8895/resource/629/COVER_IMAGE</res>
+  </container>
+  <container childCount="1" id="V_F^FOL*R1$F24" parentID="V_F^FOL*R1" restricted="1" searchable="0">
+    <upnp:icon>http://192.168.88.250:8895/resource/620/COVER_IMAGE</upnp:icon>
+    <dc:title>Morgan.2016.BDRip.by.Seven</dc:title>
+    <upnp:class>object.container.storageFolder</upnp:class>
+    <upnp:albumArtURI dlna:profileID="JPEG_TN">http://192.168.88.250:8895/resource/620/COVER_IMAGE</upnp:albumArtURI>
+    <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_OP=00;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00D00000000000000000000000000000" resolution="160x67">http://192.168.88.250:8895/resource/620/COVER_IMAGE</res>
+  </container>
+  <item id="V_F^FOL*R1$MI183" parentID="V_F^FOL*R1" restricted="1">
+    <dc:title>Blade.of.the.Immortal.2017.HDRip.avi</dc:title>
+    <upnp:class>object.item.videoItem</upnp:class>
+    <upnp:albumArtURI dlna:profileID="JPEG_TN">http://192.168.88.250:8895/resource/482/COVER_IMAGE</upnp:albumArtURI>
+    <upnp:icon>http://192.168.88.250:8895/resource/482/COVER_IMAGE</upnp:icon>
+    <dc:date>2017-04-29</dc:date>
+    <upnp:genre>драма</upnp:genre>
+    <dc:description>Самурай Мандзи случайно убил мужа сестры, после чего та немного подвинулась умом. Больше у девушки никого на свете нет, поэтому старший брат живёт только для того, чтобы её защищать. Однажды злодеи убивают сестру и калечат Мандзи, который желает лишь одного — смерти, но рядом вдруг оказывается странная старушка. Она заражает самурая кровяными червями — загадочными паразитами, которые делают своего носителя бессмертным, затягивая раны и восстанавливая отрубленные конечности. 80 лет спустя та же старушка направляет к самураю девушку, желающую отомстить за смерть отца. Девушку, как две капли воды похожую на покойную сестру Мандзи.</dc:description>
+    <upnp:rating>R</upnp:rating>
+    <res bitrate="186875" duration="2:20:58.000" protocolInfo="http-get:*:video/x-msvideo:DLNA.ORG_PN=AVI;DLNA.ORG_OP=01;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01500000000000000000000000000000" resolution="720x304" size="1581006848">http://192.168.88.250:8895/resource/183/MEDIA_ITEM/AVI-0/ORIGINAL</res>
+    <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_OP=00;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00D00000000000000000000000000000" resolution="160x67">http://192.168.88.250:8895/resource/482/COVER_IMAGE</res>
+  </item>
+  <item id="V_F^FOL*R1$MI323" parentID="V_F^FOL*R1" restricted="1">
+    <dc:title>Braven.2018.P.WEB-DLRip.14OOMB_KOSHARA.avi</dc:title>
+    <upnp:class>object.item.videoItem</upnp:class>
+    <upnp:albumArtURI dlna:profileID="JPEG_TN">http://192.168.88.250:8895/resource/622/COVER_IMAGE</upnp:albumArtURI>
+    <upnp:icon>http://192.168.88.250:8895/resource/622/COVER_IMAGE</upnp:icon>
+    <dc:date>2018-02-01</dc:date>
+    <upnp:genre>боевик</upnp:genre>
+    <dc:description>Лесник Джо Брейвен живет с семьей в горах на границе США и Канады. Однажды его тихую и размеренную жизнь нарушает опасная банда наркоторговцев, которая еще не знает, что эта часть лесной глуши занята. И занята не дикими животными, а сильным и бескомпромиссным человеком, ради семьи готовым на все…</dc:description>
+    <upnp:rating>R</upnp:rating>
+    <res bitrate="257375" duration="1:35:01.000" protocolInfo="http-get:*:video/x-msvideo:DLNA.ORG_PN=AVI;DLNA.ORG_OP=01;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01500000000000000000000000000000" resolution="720x304" size="1467463680">http://192.168.88.250:8895/resource/323/MEDIA_ITEM/AVI-0/ORIGINAL</res>
+    <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_OP=00;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00D00000000000000000000000000000" resolution="160x67">http://192.168.88.250:8895/resource/622/COVER_IMAGE</res>
+  </item>
+  <item id="V_F^FOL*R1$MI310" parentID="V_F^FOL*R1" restricted="1">
+    <dc:title>Bullet.Head.2017.D.HDRip.14OOMB_KOSHARA.avi</dc:title>
+    <upnp:class>object.item.videoItem</upnp:class>
+    <upnp:albumArtURI dlna:profileID="JPEG_TN">http://192.168.88.250:8895/resource/609/COVER_IMAGE</upnp:albumArtURI>
+    <upnp:icon>http://192.168.88.250:8895/resource/609/COVER_IMAGE</upnp:icon>
+    <dc:date>2017-12-07</dc:date>
+    <upnp:genre>драма</upnp:genre>
+    <dc:description>Даже у самого верного дела возможны разные варианты финала. Матерые преступники (Эдриан Броуди и Джон Малкович), пытаясь обчистить полицейский склад по наводке, оказываются в ловушке с разъяренным сторожевым псом по кличке ДеНиро. Счастливый финал кажется все более призрачным...</dc:description>
+    <upnp:rating>R</upnp:rating>
+    <res bitrate="256500" duration="1:35:21.000" protocolInfo="http-get:*:video/x-msvideo:DLNA.ORG_PN=AVI;DLNA.ORG_OP=01;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01500000000000000000000000000000" resolution="720x304" size="1467774976">http://192.168.88.250:8895/resource/310/MEDIA_ITEM/AVI-0/ORIGINAL</res>
+    <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_OP=00;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00D00000000000000000000000000000" resolution="160x67">http://192.168.88.250:8895/resource/609/COVER_IMAGE</res>
+  </item>
+  <item id="V_F^FOL*R1$MI324" parentID="V_F^FOL*R1" restricted="1">
+    <dc:title>Eg.Man.Pig.2017.P.WEB-DLRip.14OOMB_KOSHARA.avi</dc:title>
+    <upnp:class>object.item.videoItem</upnp:class>
+    <upnp:albumArtURI dlna:profileID="JPEG_TN">http://192.168.88.250:8895/resource/623/COVER_IMAGE</upnp:albumArtURI>
+    <upnp:icon>http://192.168.88.250:8895/resource/623/COVER_IMAGE</upnp:icon>
+    <dc:date>2018-02-08</dc:date>
+    <upnp:genre>Unknown</upnp:genre>
+    <upnp:rating>Unknown</upnp:rating>
+    <res bitrate="237625" duration="1:42:28.000" protocolInfo="http-get:*:video/x-msvideo:DLNA.ORG_PN=AVI;DLNA.ORG_OP=01;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01500000000000000000000000000000" resolution="720x304" size="1461633024">http://192.168.88.250:8895/resource/324/MEDIA_ITEM/AVI-0/ORIGINAL</res>
+    <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_OP=00;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00D00000000000000000000000000000" resolution="160x67">http://192.168.88.250:8895/resource/623/COVER_IMAGE</res>
+  </item>
+  <item id="V_F^FOL*R1$MI327" parentID="V_F^FOL*R1" restricted="1">
+    <dc:title>Etu.paru.sozdal.bog.2008.XviD.DVDRip(BDRip)-Kinozal.TV.avi</dc:title>
+    <upnp:class>object.item.videoItem</upnp:class>
+    <upnp:albumArtURI dlna:profileID="JPEG_TN">http://192.168.88.250:8895/resource/626/COVER_IMAGE</upnp:albumArtURI>
+    <upnp:icon>http://192.168.88.250:8895/resource/626/COVER_IMAGE</upnp:icon>
+    <dc:date>2018-02-11</dc:date>
+    <upnp:genre>Unknown</upnp:genre>
+    <upnp:rating>Unknown</upnp:rating>
+    <res bitrate="216125" duration="2:44:17.000" protocolInfo="http-get:*:video/x-msvideo:DLNA.ORG_PN=AVI;DLNA.ORG_OP=01;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01500000000000000000000000000000" resolution="720x304" size="2131257344">http://192.168.88.250:8895/resource/327/MEDIA_ITEM/AVI-0/ORIGINAL</res>
+    <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_OP=00;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00D00000000000000000000000000000" resolution="160x67">http://192.168.88.250:8895/resource/626/COVER_IMAGE</res>
+  </item>
+  <item id="V_F^FOL*R1$MI319" parentID="V_F^FOL*R1" restricted="1">
+    <dc:title>Godzilla Monster Planet.Part.1.2018.P.WEB-DLRip.14OOMB.avi</dc:title>
+    <upnp:class>object.item.videoItem</upnp:class>
+    <upnp:albumArtURI dlna:profileID="JPEG_TN">http://192.168.88.250:8895/resource/618/COVER_IMAGE</upnp:albumArtURI>
+    <upnp:icon>http://192.168.88.250:8895/resource/618/COVER_IMAGE</upnp:icon>
+    <dc:date>2018-01-24</dc:date>
+    <upnp:genre>Unknown</upnp:genre>
+    <upnp:rating>Unknown</upnp:rating>
+    <res bitrate="275375" duration="1:28:50.000" protocolInfo="http-get:*:video/x-msvideo:DLNA.ORG_PN=AVI;DLNA.ORG_OP=01;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01500000000000000000000000000000" resolution="720x400" size="1467979776">http://192.168.88.250:8895/resource/319/MEDIA_ITEM/AVI-0/ORIGINAL</res>
+    <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_OP=00;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00D00000000000000000000000000000" resolution="160x88">http://192.168.88.250:8895/resource/618/COVER_IMAGE</res>
+  </item>
+  <item id="V_F^FOL*R1$MI125" parentID="V_F^FOL*R1" restricted="1">
+    <dc:title>M4d4M.2O17.D.WeB-DLRip.14OOMB.avi</dc:title>
+    <upnp:class>object.item.videoItem</upnp:class>
+    <upnp:albumArtURI dlna:profileID="JPEG_TN">http://192.168.88.250:8895/resource/424/COVER_IMAGE</upnp:albumArtURI>
+    <upnp:icon>http://192.168.88.250:8895/resource/424/COVER_IMAGE</upnp:icon>
+    <dc:date>2017-11-25</dc:date>
+    <upnp:genre>Unknown</upnp:genre>
+    <upnp:rating>Unknown</upnp:rating>
+    <res bitrate="267875" duration="1:31:11.000" protocolInfo="http-get:*:video/x-msvideo:DLNA.ORG_PN=AVI;DLNA.ORG_OP=01;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01500000000000000000000000000000" resolution="720x304" size="1466179584">http://192.168.88.250:8895/resource/125/MEDIA_ITEM/AVI-0/ORIGINAL</res>
+    <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_OP=00;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00D00000000000000000000000000000" resolution="160x67">http://192.168.88.250:8895/resource/424/COVER_IMAGE</res>
+  </item>
+  <item id="V_F^FOL*R1$MI300" parentID="V_F^FOL*R1" restricted="1">
+    <dc:title>Mayhem.2017.BDRip.1.46Gb.L.MegaPeer.avi</dc:title>
+    <upnp:class>object.item.videoItem</upnp:class>
+    <upnp:albumArtURI dlna:profileID="JPEG_TN">http://192.168.88.250:8895/resource/599/COVER_IMAGE</upnp:albumArtURI>
+    <upnp:icon>http://192.168.88.250:8895/resource/599/COVER_IMAGE</upnp:icon>
+    <dc:date>2017-03-13</dc:date>
+    <upnp:genre>комедия</upnp:genre>
+    <dc:description>На человечество обрушился страшный вирус — заражённые совершенно не в состоянии себя контролировать. Ярость, похоть, страх и другие обычно сдерживаемые цивилизованным человеком эмоции и импульсы вырываются наружу, но через восемь часов действие вируса проходит.</dc:description>
+    <upnp:rating>Unknown</upnp:rating>
+    <res bitrate="299000" duration="1:27:34.000" protocolInfo="http-get:*:video/x-msvideo:DLNA.ORG_PN=AVI;DLNA.ORG_OP=01;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01500000000000000000000000000000" resolution="720x304" size="1571639296">http://192.168.88.250:8895/resource/300/MEDIA_ITEM/AVI-0/ORIGINAL</res>
+    <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_OP=00;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00D00000000000000000000000000000" resolution="160x67">http://192.168.88.250:8895/resource/599/COVER_IMAGE</res>
+  </item>
+</DIDL-Lite>
