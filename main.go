@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"regexp"
 
 	"github.com/atotto/clipboard"
 	"github.com/huin/goupnp/dcps/av1"
@@ -82,25 +83,35 @@ func main() {
 
 	ui.SetKeybinding("Esc", func() { ui.Quit() })
 	ui.SetKeybinding("q", func() { ui.Quit() })
+
 	ui.SetKeybinding("Down", func() {
 		numselectitem := Library.Selected()
 		n := numselectitem + 1
 		Library.SetSelected(n)
 	})
+
 	ui.SetKeybinding("Up", func() {
 		numselectitem := Library.Selected()
 		n := numselectitem - 1
 		Library.SetSelected(n)
 	})
+
 	ui.SetKeybinding("Enter", func() {
 		numselectitem := Library.Selected()
-		//status.SetPermanentText(u.Title)
+
 		if numselectitem == 0 {
 			u := X[0]
-			X = browsing(u.Parent)
+			p := u.Parent
+			re := regexp.MustCompile(`^(.*)(\$.*$)`)
+			match := re.FindAllStringSubmatch(p, -1)
+			X = browsing(match[0][1])
 			Library.RemoveRows()
-			//showItems(X, Library)
-			fmt.Println(u.Parent)
+			Library.AppendRow(
+				tui.NewLabel("UP"),
+				tui.NewLabel("object.container.storageFolder"),
+			)
+			showItems(X, Library)
+			status.SetPermanentText(match[0][1])
 		} else {
 
 			u := X[numselectitem-1]
@@ -113,9 +124,13 @@ func main() {
 				)
 				showItems(X, Library)
 			}
-			v := u.Results[0].Value
-			status.SetText("COPYED TO CLIPBOARD " + v)
-			clipboard.WriteAll(v)
+
+			if u.Class == "object.item.videoItem" {
+				v := u.Results[0].Value
+				status.SetText("COPYED TO CLIPBOARD " + v)
+				clipboard.WriteAll(v)
+			}
+
 		}
 	})
 
